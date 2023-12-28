@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="./img/weather.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container--content">
+        <h1 class="content-h1">Current Weather</h1>
+
+        <div class="container--input">
+          <img
+            src="./img/location.svg"
+            alt="location-img"
+            class="content-img"
+          />
+          <input
+            type="text"
+            class="content-input"
+            id="content-input"
+            placeholder="City..."
+          />
+        </div>
+
+        <div class="container--country">
+          <p class="name-country" id="name-country"></p>
+        </div>
+
+        <div class="container--grades" id="container--grades">
+          <p class="container--grades-grade" id="container--grades-grade"></p>
+        </div>
+
+        <div class="container--info">
+          <p id="info--felss-like"></p>
+          <p id="info--description"></p>
+          <p id="info--humidity"></p>
+          <button class="change-grades" id="change-grades">change</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

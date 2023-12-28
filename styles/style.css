@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 131, 221);
+}
+
+.container{
+    background-color: rgb(13, 111, 197);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 582px;
+   
+}
+
+.container--content{
+    padding-top: 60px;
+    margin: auto;
+    width: 80%;
+    color: #fff;
+}
+
+.content-h1{
+    text-align: center;
+}
+
+.container--input{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.content-img{
+    width: 30px;
+    height: 30px;
+}
+
+.content-input{
+    margin-bottom: 0;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.container--country{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.name-country{
+    font-size: 40px;
+}
+
+.container--grades{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container--grades-grade{
+    font-size: 40px;
+}
+
+.container--info{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.change-grades{
+    margin-top: 20px;
+    width: 90px;
+    height: 60px;
+    border-radius: 30%;
+    border: 2px solid #5c3939;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.change-grades:hover{
+    background-color: #d3a8a8;
+}
+
+/*------------------------------------------------responsive--------------------------*/
+@media (max-width:550px){
+
+    .container{
+        width:90vw ;
+    }
+}
